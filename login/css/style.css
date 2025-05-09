@@ -1,0 +1,12 @@
+
+body{
+    background-color: #23343E;
+}
+
+.group {
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px rgb(35, 35, 35), 10px 10px 8px rgb(35, 35, 35), 15px 15px 8px rgb(35, 35, 35);
+  margin: 20px;
+}
+

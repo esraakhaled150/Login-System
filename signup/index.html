@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container mx-auto my-5 text-center py-5">
+<div class="group mx-auto w-75 p-5">
+<h1 class="text-info mb-4"> Sign Up</h1>
+<input class="form-control mb-4 p-2"  type="text" id="signName" required placeholder="Enter your name...">
+<input class="form-control mb-4 p-2" type="email" id="singEmail" required placeholder="Enter your email...">
+<input class="form-control mb-4 p-2" type="password" id="signPassword" required placeholder="Enter your password...">
+<div class="text-center text-danger" id="message"></div>
+<button onclick="add()" class="btn btn-outline-info w-100 p-2 mb-4"> sign up</button>
+<p class="text-white"> have an account ?
+  <a class="text-white text-decoration-none" href="../index.html"> Sign In</a>
+</p>
+</div>
+</div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
